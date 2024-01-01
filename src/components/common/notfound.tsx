@@ -1,14 +1,14 @@
-import BodyLayoutFull from "@/components/layout/BodyLayoutFull";
 import MainLayout from "@/components/layout/MainLayout";
+import BodyLayoutFull from "@/components/layout/BodyLayoutFull";
 
-const Root = (): React.ReactNode => {
+const Notfound = () => {
   return (
     <MainLayout>
       <BodyLayoutFull>
-        <h1>My React Component</h1>
+        <div>NotFound!</div>
       </BodyLayoutFull>
     </MainLayout>
   );
 };
 
-export default Root;
+export default Notfound;

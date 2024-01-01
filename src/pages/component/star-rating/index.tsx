@@ -1,14 +1,14 @@
 import BodyLayoutFull from "@/components/layout/BodyLayoutFull";
 import MainLayout from "@/components/layout/MainLayout";
 
-const Root = (): React.ReactNode => {
+const StarRating = () => {
   return (
     <MainLayout>
       <BodyLayoutFull>
-        <h1>My React Component</h1>
+        <h1>StarRating</h1>
       </BodyLayoutFull>
     </MainLayout>
   );
 };
 
-export default Root;
+export default StarRating;
