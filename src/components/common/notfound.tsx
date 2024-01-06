@@ -1,5 +1,5 @@
 import MainLayout from "@/components/layout/MainLayout";
-import BodyLayoutFull from "@/components/layout/BodyLayoutFull";
+import { BodyLayoutFull } from "@/components/layout/BodyLayout";
 
 const Notfound = () => {
   return (

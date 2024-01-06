@@ -1,4 +1,4 @@
-import BodyLayoutFull from "@/components/layout/BodyLayoutFull";
+import { BodyLayoutFull } from "@/components/layout/BodyLayout";
 import MainLayout from "@/components/layout/MainLayout";
 
 const StarRating = () => {
